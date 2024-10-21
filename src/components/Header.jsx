@@ -20,7 +20,7 @@ function Header() {
             </nav>
             
             {/* <nav className="absolute top-0 right-0 text-2xl mr-10 px-10 py-5">
-                    <a href="./Home.jsx" className="px-10 transition-colors hover:text-green-500 max-md:text-3xl max-sm:text-xl">Home</a>
+                    <a href="./Home.jsx"ss className="px-10 transition-colors hover:text-green-500 max-md:text-3xl max-sm:text-xl">Home</a>
                     <a href="./Skills.jsx" className="px-10 transition-colors hover:text-green-500 max-md:text-3xl max-sm:text-xl">Skills</a>
                     <a href="./Experience.jsx" className="px-10 transition-colors hover:text-green-500 max-md:text-3xl max-sm:text-xl">Experience</a>
                     <a href="./Education.jsx" className="px-10 transition-colors hover:text-green-500 max-md:text-3xl max-sm:text-xl">Education</a>
