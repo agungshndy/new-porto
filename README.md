@@ -1,3 +1,3 @@
 This is my new portfolio where I showcasing my web development skills.
 
-Any changes will be updated here
+The repo is going to be updated everytime and it will be my main portfolio atm.
