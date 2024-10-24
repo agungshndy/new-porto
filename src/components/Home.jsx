@@ -10,7 +10,7 @@ function Home() {
           <div className="flex justify-center p-4">
             <img
               className="object-scale-down"
-              src="../public/profile1.jpg"
+              src="../assets/profile1.jpg"
               alt="profilepic"
               width={350}
             />
