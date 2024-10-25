@@ -1,6 +1,7 @@
 import gmail from '../assets/gmail.svg';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
+import profilepic from '../assets/profile1.jpg';
 // import Button from '@mui/material/Button';
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
           <div className="flex justify-center p-4">
             <img
               className="object-scale-down"
-              src="../assets/profile1.jpg"
+              src={profilepic}
               alt="profilepic"
               width={350}
             />
