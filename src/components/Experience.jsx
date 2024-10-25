@@ -1,6 +1,6 @@
 function Experience() {
     return (
-        <div className="experience">
+        <div id="experience" className="experience">
         <h1 className="text-5xl my-20 text-center max-md:text-3xl max-sm:text-xl">Experience</h1>
         <div className="py-20 bg-gradient-to-r from-slate-800 to-slate-700">
             <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">

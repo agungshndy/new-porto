@@ -6,7 +6,7 @@ import profilepic from '../assets/profile1.jpg';
 
 function Home() {
     return (
-      <div className="home container mx-auto my-20">
+      <div id="home" className="home container mx-auto my-20">
         <div className="grid grid-cols-2 gap-4">
           <div className="flex justify-center p-4">
             <img
