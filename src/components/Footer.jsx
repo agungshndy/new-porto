@@ -5,7 +5,6 @@ function Footer({ homeRef }) {
         // eslint-disable-next-line react/prop-types
         homeRef.current.scrollIntoView({ behavior : 'smooth' })
     }
-    
     return (
         <div className="footer">
          <footer className="">
