@@ -1,4 +1,11 @@
-function Footer() {
+// eslint-disable-next-line react/prop-types
+function Footer({ homeRef }) {
+
+    const scrollToHome = () => {
+        // eslint-disable-next-line react/prop-types
+        homeRef.current.scrollIntoView({ behavior : 'smooth' })
+    }
+    
     return (
         <div className="footer">
          <footer className="">
@@ -8,10 +15,10 @@ function Footer() {
 
             <div className="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
                 <a href=""></a>
-                <button className="flex items-center justify-center order-1 w-full px-2 py-2 mt-3 text-sm tracking-wide text-gray-600 hover:text-gray-600 capitalize transition-colors duration-300 transform border rounded-md sm:mx-2 dark:border-gray-400 dark:text-gray-200 sm:mt-0 sm:w-auto hover:bg-gray-800 focus:outline-none focus:ring dark:hover:bg-gray-50 focus:ring-gray-300 focus:ring-opacity-40">
-                <a href="#home" className="flex items-center justify-center order-1 w-full px-2 py-2 mt-3 text-sm tracking-wide text-gray-600 hover:text-gray-600 capitalize transition-colors duration-300 transform border rounded-md sm:mx-2 dark:border-gray-400 dark:text-gray-200 sm:mt-0 sm:w-auto hover:bg-gray-800 focus:outline-none focus:ring dark:hover:bg-gray-50 focus:ring-gray-300 focus:ring-opacity-40">
+                <button onClick={scrollToHome} className="flex items-center justify-center order-1 w-full px-2 py-2 mt-3 text-sm tracking-wide text-gray-600 hover:text-gray-600 capitalize transition-colors duration-300 transform border rounded-md sm:mx-2 dark:border-gray-400 dark:text-gray-200 sm:mt-0 sm:w-auto hover:bg-gray-800 focus:outline-none focus:ring dark:hover:bg-gray-50 focus:ring-gray-300 focus:ring-opacity-40">
                     <span className="mx-1">Home</span>
-                </a>
+                {/* <a href="#home" className="flex items-center justify-center order-1 w-full px-2 py-2 mt-3 text-sm tracking-wide text-gray-600 hover:text-gray-600 capitalize transition-colors duration-300 transform border rounded-md sm:mx-2 dark:border-gray-400 dark:text-gray-200 sm:mt-0 sm:w-auto hover:bg-gray-800 focus:outline-none focus:ring dark:hover:bg-gray-50 focus:ring-gray-300 focus:ring-opacity-40">
+                </a> */}
                 </button>       
             </div>
         </div>

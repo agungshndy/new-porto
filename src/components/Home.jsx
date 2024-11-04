@@ -4,9 +4,10 @@ import linkedin from '../assets/linkedin.svg';
 import profilepic from '../assets/profile1.jpg';
 // import Button from '@mui/material/Button';
 
-function Home() {
+// eslint-disable-next-line react/prop-types
+function Home({ homeRef }) {
     return (
-      <div id="home" className="home container mx-auto my-20">
+      <div id="home" ref={homeRef} className="home container mx-auto my-20">
         <div className="grid grid-cols-2 gap-4">
           <div className="flex justify-center p-4">
             <img
