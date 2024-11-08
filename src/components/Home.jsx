@@ -7,7 +7,7 @@ import profilepic from '../assets/profile1.jpg';
 // eslint-disable-next-line react/prop-types
 function Home({ homeRef, openWhatsApp }) {
 
-  
+
     return (
       <div id="home" ref={homeRef} className="home container mx-auto my-20">
         <div className="grid grid-cols-2 gap-4">
@@ -57,6 +57,9 @@ function Home({ homeRef, openWhatsApp }) {
               </div>
             </div>
             <div className="gap-4 p-4 text-2xl">
+              <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400" onClick={openWhatsApp}>
+                Contact Me!
+              </button>
               <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400" onClick={openWhatsApp}>
                 Contact Me!
               </button>
