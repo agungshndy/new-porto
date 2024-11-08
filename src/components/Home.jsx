@@ -7,7 +7,6 @@ import profilepic from '../assets/profile1.jpg';
 // eslint-disable-next-line react/prop-types
 function Home({ homeRef, openWhatsApp, downloadCV}) {
 
-
     return (
       <div id="home" ref={homeRef} className="home container mx-auto my-20">
         <div className="grid grid-cols-2 gap-4">

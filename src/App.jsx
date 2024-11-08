@@ -25,7 +25,6 @@ function App() {
       window.open(cvUrl, '_blank');
   }
 
-
   return (
     <div>
       <Header />  
