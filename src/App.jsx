@@ -12,11 +12,20 @@ function App() {
 
   const homeRef = useRef(null);
 
+  const openWhatsApp = () => {
+    const phoneNumber = '+681268494403'; // Replace with your phone number in international format, e.g., 1234567890
+    const message = 'Hello, Agung!';
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  
+    window.open(whatsappUrl, '_blank');
+  }
+
   return (
     <div>
       <Header />  
       <Home 
       homeRef={homeRef} 
+      openWhatsApp={openWhatsApp}
       />
       <Skills />
       <Experience />
