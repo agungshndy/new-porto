@@ -5,7 +5,7 @@ import profilepic from '../assets/profile1.jpg';
 // import Button from '@mui/material/Button';
 
 // eslint-disable-next-line react/prop-types
-function Home({ homeRef, openWhatsApp }) {
+function Home({ homeRef, openWhatsApp, downloadCV}) {
 
 
     return (
@@ -57,11 +57,11 @@ function Home({ homeRef, openWhatsApp }) {
               </div>
             </div>
             <div className="gap-4 p-4 text-2xl">
-              <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400" onClick={openWhatsApp}>
+              <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400 mr-5" onClick={openWhatsApp}>
                 Contact Me!
               </button>
-              <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400" onClick={openWhatsApp}>
-                Contact Me!
+              <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400 ml-5" onClick={downloadCV}>
+                Download My CV
               </button>
             </div>
           </div>

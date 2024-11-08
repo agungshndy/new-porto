@@ -20,13 +20,19 @@ function App() {
     window.open(whatsappUrl, '_blank');
   }
 
-  
+  const downloadCV = () => {
+      const cvUrl = "https://drive.google.com/file/d/13K0HKtIgsyfWZLL1OYdhb4rjoDvtepgs/view?usp=sharing";
+      window.open(cvUrl, '_blank');
+  }
+
+
   return (
     <div>
       <Header />  
       <Home 
       homeRef={homeRef} 
       openWhatsApp={openWhatsApp}
+      downloadCV={downloadCV}
       />
       <Skills />
       <Experience />
