@@ -2,64 +2,76 @@ import gmail from '../assets/gmail.svg';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 import profilepic from '../assets/profile1.jpg';
-// import Button from '@mui/material/Button';
 
 // eslint-disable-next-line react/prop-types
 function Home({ homeRef, openWhatsApp, downloadCV}) {
-
     return (
-      <div id="home" ref={homeRef} className="home container mx-auto my-20">
-        <div className="grid grid-cols-2 gap-4">
+      <div id="home" ref={homeRef} className="home container mx-auto my-20 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Profile Picture */}
           <div className="flex justify-center p-4">
             <img
-              className="object-scale-down"
+              className="object-cover"
               src={profilepic}
               alt="profilepic"
-              width={350}
+              width={300}
             />
           </div>
+
+          {/* Text Section */}
           <div className="p-4">
             <div className="p-4">
-              <h1 className="text-5xl max-md:text-3xl max-sm:text-xl">
+              <h1 className="text-4xl sm:text-5xl max-md:text-3xl max-sm:text-xl">
                 Hi, I am{" "}
                 <span className="transition-colors hover:text-green-500 font-bold">
                   Agung
                 </span>.
               </h1>
-              <h2 className="text-5xl max-md:text-3xl max-sm:text-xl">
+              <h2 className="text-4xl sm:text-5xl max-md:text-3xl max-sm:text-xl">
                 I&apos;m a{" "}
                 <span className="text-green-500">Web Developer.</span>
               </h2>
             </div>
-            <div className="p-4 text-3xl max-md:text-3xl max-sm:text-xl">
+
+            <div className="p-4 text-xl sm:text-2xl max-md:text-xl max-sm:text-lg">
               <p>
                 I&apos;m a self taught web developer who seeking a new experience to
                 expand my career path. I&apos;m eager to learn new things, and
                 also flexible to a new changes.
               </p>
             </div>
-            <div className="flex gap-5 p-4">
-              <div className="w-50px h-50px">
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agungshandy43@gmail.com" target='_blank'>
+
+            <div className="flex gap-6 text-left p-4">
+              {/* Social Media Icons */}
+              <div className="w-12 h-12">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agungshandy43@gmail.com" target='_blank' rel="noopener noreferrer">
                   <img src={gmail} alt="gmail" width={50} height={50} />
                 </a>
               </div>
-              <div className="w-50px h-50px">
-                <a href="https://github.com/agungshndy" target='_blank'>
+              <div className="w-12 h-12">
+                <a href="https://github.com/agungshndy" target='_blank' rel="noopener noreferrer">
                   <img src={github} alt="github" width={50} height={50} />
                 </a>
               </div>
-              <div className="w-50px h-50px">
-                <a href="https://www.linkedin.com/in/agungshandy/" target='_blank'>
+              <div className="w-12 h-12">
+                <a href="https://www.linkedin.com/in/agungshandy/" target='_blank' rel="noopener noreferrer">
                   <img src={linkedin} alt="linkedin" width={50} height={50} />
                 </a>
               </div>
             </div>
-            <div className="gap-4 p-4 text-2xl">
-              <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400 mr-5" onClick={openWhatsApp}>
+
+            <div className="flex text-left gap-6 p-4">
+              {/* Buttons */}
+              <button
+                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400"
+                onClick={openWhatsApp}
+              >
                 Contact Me!
               </button>
-              <button className="border-3 bg-green-500 border-b-green-500 transition-colors hover:bg-green-400 ml-5" onClick={downloadCV}>
+              <button
+                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400"
+                onClick={downloadCV}
+              >
                 Download My CV
               </button>
             </div>

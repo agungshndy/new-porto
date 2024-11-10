@@ -5,7 +5,7 @@ import Experience from './components/Experience.jsx';
 import Education from './components/Education.jsx';
 import Home from './components/Home.jsx';
 import Footer from './components/Footer.jsx';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 // import React from 'react';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   const homeRef = useRef(null);
 
   const openWhatsApp = () => {
-    const phoneNumber = '+681268494403'; // Replace with your phone number in international format, e.g., 1234567890
+    const phoneNumber = '+681268494403';
     const message = 'Hello, Agung!';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   
@@ -25,9 +25,18 @@ function App() {
       window.open(cvUrl, '_blank');
   }
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div>
-      <Header />  
+      <Header
+      isMenuOpen={isMenuOpen}
+      toggleMenu={toggleMenu}
+      />  
       <Home 
       homeRef={homeRef} 
       openWhatsApp={openWhatsApp}
