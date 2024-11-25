@@ -5,6 +5,7 @@ import Experience from './components/Experience.jsx';
 import Education from './components/Education.jsx';
 import Home from './components/Home.jsx';
 import Footer from './components/Footer.jsx';
+import Project from './components/Project.jsx';
 import { useRef, useState } from 'react';
 // import React from 'react';
 
@@ -45,6 +46,7 @@ function App() {
       <Skills />
       <Experience />
       <Education />
+      <Project />
       <Footer
       homeRef={homeRef}
       />
