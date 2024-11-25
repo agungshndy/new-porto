@@ -8,7 +8,7 @@ function Header({ isMenuOpen, toggleMenu }) {
             <div>
               <a
                 href="#home"
-                className="text-4xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 max-md:text-3xl max-sm:text-xl"
+                className="text-4xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 max-md:text-3xl max-sm:text-2xl"
               >
                 Portfolio
               </a>

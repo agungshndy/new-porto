@@ -4,9 +4,11 @@ import keeper from '../assets/keeper.png'
 function Project(){
 
     return (
-      <div className="container mx-auto max-w-[24rem]">
-        <section>
-          <a href="#" className="group relative block overflow-hidden">
+      <div id='project' className="project">
+        <h1 className="text-5xl my-20 text-center max-md:text-4xl max-sm:text-3xl">Projects</h1>
+        <div className="py-20 bg-gradient-to-r from-slate-800 to-slate-700">
+        <section className='container mx-auto max-w-[24rem]'>
+          <a href="https://agungshndy.github.io/keeper-app/" target='_blank' className="group relative block overflow-hidden">
             <button className="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75">
               <span className="sr-only">Wishlist</span>
 
@@ -61,6 +63,7 @@ function Project(){
             </div>
           </a>
         </section>
+        </div>
       </div>
     );
 }

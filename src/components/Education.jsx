@@ -1,7 +1,7 @@
 function Education() {
     return (
         <div id="education" className="education">
-        <h1 className="my-20 text-center text-5xl max-md:text-3xl max-sm:text-xl">Education</h1>
+        <h1 className="my-20 text-center text-5xl max-md:text-4xl max-sm:text-3xl">Education</h1>
         <div className="my-20 bg-gradient-to-r from-slate-700 to-slate-800 text-2xl">
             <section className="text-gray-600 body-font overflow-hidden">
   <div className="container px-5 py-24 mx-auto">

@@ -21,19 +21,19 @@ function Home({ homeRef, openWhatsApp, downloadCV}) {
           {/* Text Section */}
           <div className="p-4">
             <div className="p-4">
-              <h1 className="text-4xl sm:text-5xl max-md:text-3xl max-sm:text-xl">
+              <h1 className="text-5xl max-md:text-4xl max-sm:text-3xl">
                 Hi, I am{" "}
                 <span className="transition-colors hover:text-green-500 font-bold">
                   Agung
                 </span>.
               </h1>
-              <h2 className="text-4xl sm:text-5xl max-md:text-3xl max-sm:text-xl">
+              <h2 className="text-5xl max-md:text-4xl max-sm:text-3xl">
                 I&apos;m a{" "}
                 <span className="text-green-500">Web Developer.</span>
               </h2>
             </div>
 
-            <div className="p-4 text-xl sm:text-2xl max-md:text-xl max-sm:text-lg">
+            <div className="p-4 text-3xl max-md:text-2xl max-sm:text-xl">
               <p>
                 I&apos;m a self taught web developer who seeking a new experience to
                 expand my career path. I&apos;m eager to learn new things, and
@@ -63,13 +63,13 @@ function Home({ homeRef, openWhatsApp, downloadCV}) {
             <div className="flex text-left gap-6 p-4">
               {/* Buttons */}
               <button
-                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400"
+                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400 text-2xl max-md:text-xl max-sm:text-lg"
                 onClick={openWhatsApp}
               >
                 Contact Me!
               </button>
               <button
-                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400"
+                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400 text-2xl max-md:text-xl max-sm:text-lg"
                 onClick={downloadCV}
               >
                 Download My CV
