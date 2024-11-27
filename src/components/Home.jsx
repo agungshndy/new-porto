@@ -63,13 +63,13 @@ function Home({ homeRef, openWhatsApp, downloadCV}) {
             <div className="flex text-left gap-6 p-4">
               {/* Buttons */}
               <button
-                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400 text-2xl max-md:text-xl max-sm:text-lg"
+                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition hover:scale-105 text-2xl max-md:text-xl max-sm:text-lg"
                 onClick={openWhatsApp}
               >
                 Contact Me!
               </button>
               <button
-                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition-colors hover:bg-green-400 text-2xl max-md:text-xl max-sm:text-lg"
+                className="border-2 bg-green-500 border-green-500 text-white py-2 px-6 rounded-lg transition hover:scale-105 text-2xl max-md:text-xl max-sm:text-lg"
                 onClick={downloadCV}
               >
                 Download My CV

@@ -75,6 +75,12 @@ function Header({ isMenuOpen, toggleMenu }) {
               >
                 Education
               </a>
+              <a
+                href="#projects"
+                className="text-2xl max-md:text-3xl max-sm:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
+              >
+                Projects
+              </a>
             </div>
           </div>
         </nav>
@@ -109,6 +115,12 @@ function Header({ isMenuOpen, toggleMenu }) {
               className="text-2xl max-md:text-3xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500"
             >
               Education
+            </a>
+            <a
+              href="#projects"
+              className="text-2xl max-md:text-3xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500"
+            >
+              Projects
             </a>
           </div>
         </div>

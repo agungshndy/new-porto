@@ -6,9 +6,9 @@ function Skills() {
                 <section className="py-24 bg-gradient-to-r from-slate-700 to-slate-800">
                     <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4">
                         {/* Web Developer Card */}
-                        <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center w-full sm:w-11/12 lg:w-3/4 xl:w-3/5 mx-auto">
-                            <h2 className="text-gray-500 font-medium text-3xl mb-5 max-md:text-3xl max-sm:text-2xl">Web Developer</h2>
-                            <ul className="text-gray-500 font-normal text-xl max-md:text-3xl max-sm:text-2xl">
+                        <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center w-full sm:w-11/12 lg:w-3/4 xl:w-3/5 mx-auto max-md:w-[20rem]">
+                            <h2 className="text-gray-500 font-medium text-3xl mb-5 max-md:text-2xl">Web Developer</h2>
+                            <ul className="text-gray-500 font-normal text-2xl max-md:text-xl">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
@@ -20,9 +20,9 @@ function Skills() {
                         </div>
 
                         {/* Hardware Card */}
-                        <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center w-full sm:w-11/12 lg:w-3/4 xl:w-3/5 mx-auto">
-                            <h2 className="text-gray-500 font-medium text-3xl mb-5 max-md:text-3xl max-sm:text-2xl">Hardware</h2>
-                            <ul className="text-gray-500 font-normal text-xl max-md:text-3xl max-sm:text-2xl">
+                        <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center w-full sm:w-11/12 lg:w-3/4 xl:w-3/5 mx-auto max-md:w-[20rem]">
+                            <h2 className="text-gray-500 font-medium text-3xl mb-5 max-md:text-2xl">Hardware</h2>
+                            <ul className="text-gray-500 font-normal text-2xl max-md:text-xl">
                                 <li>PC&apos;s Hardware</li>
                                 <li>PC&apos;s Software</li>
                                 <li>Troubleshooting</li>
@@ -32,9 +32,9 @@ function Skills() {
                         </div>
 
                         {/* Network Card */}
-                        <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center w-full sm:w-11/12 lg:w-3/4 xl:w-3/5 mx-auto">
-                            <h2 className="text-gray-500 font-medium text-3xl mb-5 max-md:text-3xl max-sm:text-2xl">Network</h2>
-                            <ul className="text-gray-500 font-normal text-xl max-md:text-3xl max-sm:text-2xl">
+                        <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center w-full sm:w-11/12 lg:w-3/4 xl:w-3/5 mx-auto max-md:w-[20rem]">
+                            <h2 className="text-gray-500 font-medium text-3xl mb-5 max-md:text-2xl">Network</h2>
+                            <ul className="text-gray-500 font-normal text-2xl max-md:text-xl">
                                 <li>Routing</li>
                                 <li>Switching</li>
                                 <li>LAN</li>
