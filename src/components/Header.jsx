@@ -8,7 +8,7 @@ function Header({ isMenuOpen, toggleMenu }) {
             <div>
               <a
                 href="#home"
-                className="text-4xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 max-md:text-3xl max-sm:text-2xl"
+                className="text-4xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 max-md:text-3xl max-sm:text-2xl"
               >
                 Portfolio
               </a>
@@ -53,31 +53,31 @@ function Header({ isMenuOpen, toggleMenu }) {
             <div className="hidden md:flex text-gray-600 dark:text-gray-300 capitalize">
               <a
                 href="#home"
-                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-5"
+                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-5"
               >
                 Home
               </a>
               <a
                 href="#skills"
-                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-5"
+                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-5"
               >
                 Skills
               </a>
               <a
                 href="#experience"
-                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-5"
+                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-5"
               >
                 Experience
               </a>
               <a
                 href="#education"
-                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-5"
+                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-5"
               >
                 Education
               </a>
               <a
                 href="#projects"
-                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-5"
+                className="text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-5"
               >
                 Projects
               </a>
@@ -94,31 +94,31 @@ function Header({ isMenuOpen, toggleMenu }) {
           <div className="flex flex-col space-y-4 py-4 px-6">
             <a
               href="#home"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Home
             </a>
             <a
               href="#skills"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Skills
             </a>
             <a
               href="#experience"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Experience
             </a>
             <a
               href="#education"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Education
             </a>
             <a
               href="#projects"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Projects
             </a>
