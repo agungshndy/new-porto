@@ -7,13 +7,13 @@ function Footer({ homeRef }) {
     }
     
     const year = new Date().getFullYear();
-    
+
     return (
         <div className="footer">
          <footer className="">
     <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center">
-            <p className="max-w-md mx-auto mt-4 text-gray-500 dark:text-gray-400">Back to Home.</p>
+            <p className="max-w-md mx-auto mt-4 text-gray-500 dark:text-gray-400 text-lg">Back to Home.</p>
 
             <div className="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
                 <a href=""></a>

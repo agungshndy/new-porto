@@ -45,17 +45,17 @@ function Home({ homeRef, openWhatsApp, downloadCV}) {
               {/* Social Media Icons */}
               <div className="w-12 h-12">
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agungshandy43@gmail.com" target='_blank' rel="noopener noreferrer">
-                  <img src={gmail} alt="gmail" width={50} height={50} />
+                  <img src={gmail} alt="gmail" width={50} height={50} className='hover:scale-105'/>
                 </a>
               </div>
               <div className="w-12 h-12">
                 <a href="https://github.com/agungshndy" target='_blank' rel="noopener noreferrer">
-                  <img src={github} alt="github" width={50} height={50} />
+                  <img src={github} alt="github" width={50} height={50} className='hover:scale-105'/>
                 </a>
               </div>
               <div className="w-12 h-12">
                 <a href="https://www.linkedin.com/in/agungshandy/" target='_blank' rel="noopener noreferrer">
-                  <img src={linkedin} alt="linkedin" width={50} height={50} />
+                  <img src={linkedin} alt="linkedin" width={50} height={50} className='hover:scale-105'/>
                 </a>
               </div>
             </div>
