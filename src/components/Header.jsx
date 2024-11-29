@@ -40,7 +40,7 @@ function Header({ isMenuOpen, toggleMenu }) {
   
                       <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden -translate-y-3">
                         <div className="bg-white mb-1.5 h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-y-6"></div>
-                        <div className="bg-white mb-1.5 h-[2px] w-7 rounded transform transition-all duration-300 group-focus:translate-y-6 delay-75"></div>
+                        <div className="bg-white mb-1.5 h-[2px] w-7 transform transition-all duration-300 group-focus:translate-y-6 delay-75"></div>
                         <div className="bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-y-6 delay-100"></div>
                       </div>
                     </div>
