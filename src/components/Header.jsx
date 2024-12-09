@@ -89,36 +89,36 @@ function Header({ isMenuOpen, toggleMenu }) {
         <div
           className={`${
             isMenuOpen ? 'max-h-screen' : 'max-h-0'
-          } md:hidden overflow-hidden transition-all duration-500 ease-in-out bg-white shadow-md dark:bg-gray-800`}
+          } md:hidden overflow-hidden transition-all duration-500 ease-in-out shadow-md dark:bg-gray-800`}
         >
           <div className="flex flex-col space-y-4 py-4 px-6">
             <a
               href="#home"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Home
             </a>
             <a
               href="#skills"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Skills
             </a>
             <a
               href="#experience"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Experience
             </a>
             <a
               href="#education"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Education
             </a>
             <a
               href="#projects"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-800 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
             >
               Projects
             </a>
