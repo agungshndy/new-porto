@@ -2,7 +2,7 @@
 function Header({ isMenuOpen, toggleMenu }) {
     return (
       <div className="header">
-        <nav className="bg-white shadow dark:bg-gray-800">
+        <nav className="shadow dark:bg-gray-800">
           <div className="flex items-center justify-between px-6 py-4">
             {/* Logo */}
             <div>
