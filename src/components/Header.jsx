@@ -50,7 +50,7 @@ function Header({ isMenuOpen, toggleMenu }) {
             </div>
   
             {/* Navigation Links */}
-            <div className="hidden md:flex text-gray-600 dark:text-gray-300 capitalize">
+            <div className="hidden md:flex md:flex-nowrap md:fixed md:top-0 md:w-full text-gray-600 dark:text-gray-300 capitalize">
               <a
                 href="#home"
                 className="text-gray-100 text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-400 dark:hover:text-gray-200 hover:border-green-500 mx-5"
