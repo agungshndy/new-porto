@@ -2,7 +2,7 @@
 function Header({ isMenuOpen, toggleMenu }) {
     return (
       <div className="header">
-        <nav className="flex-nowrap fixed top-0 w-full shadow dark:bg-gray-800">
+        <nav className="flex-nowrap fixed top-0 w-full shadow dark:bg-gray-800 z-10">
           <div className="flex items-center justify-between px-6 py-4">
             {/* Logo */}
             <div>
@@ -50,7 +50,7 @@ function Header({ isMenuOpen, toggleMenu }) {
             </div>
   
             {/* Navigation Links */}
-            <div className="hidden md:flex md:flex-nowrap md:fixed md:top-0 md:w-full text-gray-600 dark:text-gray-300 capitalize">
+            <div className="hidden md:flex text-gray-600 dark:text-gray-300 capitalize">
               <a
                 href="#home"
                 className="text-gray-100 text-2xl max-md:text-xl border-b-2 border-transparent hover:text-gray-400 dark:hover:text-gray-200 hover:border-green-500 mx-5"
@@ -91,34 +91,34 @@ function Header({ isMenuOpen, toggleMenu }) {
             isMenuOpen ? 'max-h-screen' : 'max-h-0'
           } md:hidden overflow-hidden transition-all duration-500 ease-in-out shadow-md dark:bg-gray-800`}
         >
-          <div className="flex flex-col space-y-4 py-4 px-6">
+          <div className="pt-[8rem] sticky flex flex-col space-y-4 py-4 px-6">
             <a
               href="#home"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-400 dark:hover:text-gray-200 hover:border-green-500"
             >
               Home
             </a>
             <a
               href="#skills"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-400 dark:hover:text-gray-200 hover:border-green-500"
             >
               Skills
             </a>
             <a
               href="#experience"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-400 dark:hover:text-gray-200 hover:border-green-500"
             >
               Experience
             </a>
             <a
               href="#education"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-400 dark:hover:text-gray-200 hover:border-green-500"
             >
               Education
             </a>
             <a
               href="#projects"
-              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500"
+              className="text-3xl max-md:text-2xl max-sm:text-xl text-gray-100 dark:text-gray-200 border-b-2 border-transparent hover:text-gray-400 dark:hover:text-gray-200 hover:border-green-500"
             >
               Projects
             </a>
