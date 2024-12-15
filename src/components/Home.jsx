@@ -43,7 +43,7 @@ function Home({ homeRef, openWhatsApp, downloadCV}) {
 
             <div className="flex gap-6 text-left p-4">
               {/* Social Media Icons */}
-              <div className="w-12 h-12">
+              <div className="w-13 h-13">
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agungshandy43@gmail.com" target='_blank' rel="noopener noreferrer">
                   <img src={gmail} alt="gmail" width={50} height={50} className='hover:scale-105'/>
                 </a>
