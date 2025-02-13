@@ -88,7 +88,7 @@ function Header({ isMenuOpen, toggleMenu }) {
           <div
             className={`${
               isMenuOpen ? 'max-h-screen' : 'max-h-0'
-            } md:hidden overflow-hidden transition-all duration-500 ease-in-out shadow-md dark:bg-gray-800`}
+            } md:hidden overflow-hidden transition-all duration-500 ease-in-out shadow-md dark:bg-gray-900`}
           >
             <div>
               <div className="top-0 sticky flex flex-col space-y-4 py-4 px-6">
