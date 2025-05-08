@@ -22,7 +22,7 @@ function App() {
   }
 
   const downloadCV = () => {
-      const cvUrl = "https://drive.google.com/file/d/13K0HKtIgsyfWZLL1OYdhb4rjoDvtepgs/view?usp=sharing";
+      const cvUrl = "https://drive.google.com/file/d/1Gt8yc8_wxI8qJbO_-B68itGf9UsUDWh3/view?usp=drive_link";
       window.open(cvUrl, '_blank');
   }
 
