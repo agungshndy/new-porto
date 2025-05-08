@@ -28,7 +28,7 @@ function Education() {
         </div>
         <div className="md:flex-grow">
           <h2 className="text-3xl font-medium text-gray-300 title-font mb-2 max-md:text-3xl max-sm:text-xl">Binus University</h2>
-          <h3 className="text-2xl font-medium text-gray-400 title-font mb-2 max-md:text-3xl max-sm:text-xl">Jun 2021 - Present</h3>
+          <h3 className="text-2xl font-medium text-gray-400 title-font mb-2 max-md:text-3xl max-sm:text-xl">Jun 2021 - Sept 2024</h3>
           <ul className="leading-relaxed max-md:text-3xl max-sm:text-xl">
                 <li>Database</li>
                 <li>UI/UX Design</li>
