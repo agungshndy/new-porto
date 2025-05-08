@@ -1,7 +1,7 @@
 import gmail from '../assets/gmail.svg';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
-import profilepic from '../assets/profile1.jpg';
+import profilepic from '../assets/profile2.jpg';
 
 // eslint-disable-next-line react/prop-types
 function Home({ homeRef, openWhatsApp, downloadCV}) {
