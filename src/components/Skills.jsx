@@ -11,8 +11,8 @@ function Skills() {
                             <ul className="text-gray-500 font-normal text-2xl max-md:text-xl">
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>Javascript</li>
-                                <li>React</li>
+                                <li>Vue.js</li>
+                                <li>React.js</li>
                                 <li>Bootstrap</li>
                                 <li>Tailwind</li>
                                 <li>Node.js</li>
