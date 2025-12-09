@@ -88,7 +88,7 @@ function Experience() {
                                     <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-8 rounded border border-slate-200 shadow">
                                         <div className="flex items-center justify-between space-x-2 mb-3">
                                         <div className="font-bold text-slate-900 text-2xl">IT Network & System Services</div>
-                                            <time className="text-xs font-medium text-indigo-500">Sep 2023 - Present</time>
+                                            <time className="text-xs font-medium text-indigo-500">Sep 2023 - Dec 2025</time>
                                         </div>
                                         <div className="font-medium text-slate-900 mb-3">PT Omni Intivision</div>
                                         <div className="text-slate-500">
