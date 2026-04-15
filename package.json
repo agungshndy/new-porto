@@ -34,8 +34,8 @@
     "gh-pages": "^6.2.0",
     "globals": "^15.9.0",
     "postcss": "^8.4.41",
-    "tailwind": "^4.0.0",
+    "tailwind": "^2.3.1",
     "tailwindcss": "^3.4.10",
-    "vite": "^5.4.1"
+    "vite": "^7.2.7"
   }
 }
