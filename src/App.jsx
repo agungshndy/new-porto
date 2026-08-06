@@ -14,7 +14,7 @@ function App() {
   const homeRef = useRef(null);
 
   const openWhatsApp = () => {
-    const phoneNumber = '+6285183083964';
+    const phoneNumber = '+6281268494403';
     const message = 'Hello, Agung!';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   
@@ -22,7 +22,7 @@ function App() {
   }
 
   const downloadCV = () => {
-      const cvUrl = "https://drive.google.com/file/d/119tppqErK32xdxemWhu4fvYc36bZFpfY/view?usp=drive_link";
+      const cvUrl = "https://drive.google.com/file/d/1_zl2mPoy69DG9RsEf6Lv01yz5CHOkt96/view?usp=sharing";
       window.open(cvUrl, '_blank');
   }
 

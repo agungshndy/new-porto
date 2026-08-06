@@ -22,22 +22,22 @@ function Home({ homeRef, openWhatsApp, downloadCV}) {
           <div className="p-4">
             <div className="p-4">
               <h1 className="text-5xl max-md:text-4xl max-sm:text-3xl">
-                Hi, I am{" "}
-                <span className="transition-colors hover:text-green-500 font-bold">
-                  Agung
+                Agung{" "}
+                <span className="transition-colors hover:text-green-500 font-sans">
+                  Shandy
                 </span>.
               </h1>
               <h2 className="text-5xl max-md:text-4xl max-sm:text-3xl">
-                I&apos;m a{" "}
-                <span className="text-green-500">Web Developer.</span>
+                Frontend{" "}
+                <span className="text-green-500">Developer.</span>
               </h2>
             </div>
 
             <div className="p-4 text-3xl max-md:text-2xl max-sm:text-xl">
               <p>
-                I&apos;m a self taught web developer who seeking a new experience to
-                expand my career path. I&apos;m eager to learn new things, and
-                also flexible to a new changes.
+                Self taught frontend developer with a background in Linux System Administration and 
+                enterprise IT support. I enjoy building responsive web application using React, Tailwind CSS,
+                and modern Javascript while continuously learning new technologies.
               </p>
             </div>
 
