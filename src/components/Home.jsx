@@ -33,7 +33,7 @@ function Home({ homeRef, openWhatsApp, downloadCV}) {
               </h2>
             </div>
 
-            <div className="p-4 text-3xl max-md:text-2xl max-sm:text-xl">
+            <div className="p-4 text-2xl max-md:text-xl max-sm:text-lg">
               <p>
                 Self taught frontend developer with a background in Linux System Administration and 
                 enterprise IT support. I enjoy building responsive web application using React, Tailwind CSS,
