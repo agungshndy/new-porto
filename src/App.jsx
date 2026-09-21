@@ -14,15 +14,15 @@ function App() {
   const homeRef = useRef(null);
 
   const openWhatsApp = () => {
-    const phoneNumber = '+6281268494403';
-    const message = 'Hello, Agung!';
+    const phoneNumber = '+6285183083964';
+    const message = 'Hello, Shandy!';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   
     window.open(whatsappUrl, '_blank');
   }
 
   const downloadCV = () => {
-      const cvUrl = "https://drive.google.com/file/d/1_zl2mPoy69DG9RsEf6Lv01yz5CHOkt96/view?usp=sharing";
+      const cvUrl = "https://drive.google.com/file/d/1YSAGsNpOsxTL5aj3kZyRwTPAhOItqLxd/view?usp=sharing";
       window.open(cvUrl, '_blank');
   }
 
