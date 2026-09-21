@@ -14,7 +14,7 @@ function App() {
   const homeRef = useRef(null);
 
   const openWhatsApp = () => {
-    const phoneNumber = '+6285183083964';
+    const phoneNumber = '+6281268494403';
     const message = 'Hello, Shandy!';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   
